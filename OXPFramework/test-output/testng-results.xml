@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="1584" started-at="2018-12-30T16:50:31Z" finished-at="2018-12-30T16:50:33Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="1584" started-at="2018-12-30T16:50:31Z" finished-at="2018-12-30T16:50:33Z">
+      <class name="com.mercuryTravel.utils.TestDataProvider">
+        <test-method status="PASS" signature="printTestData(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.mercuryTravel.utils.TestDataProvider@3e6fa38a]" name="printTestData" duration-ms="26" started-at="2018-12-30T16:50:33Z" data-provider="getData" finished-at="2018-12-30T16:50:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Saurabh]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Pro@1234]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[AC001]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printTestData -->
+        <test-method status="PASS" signature="printTestData(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.mercuryTravel.utils.TestDataProvider@3e6fa38a]" name="printTestData" duration-ms="12" started-at="2018-12-30T16:50:33Z" data-provider="getData" finished-at="2018-12-30T16:50:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Gaurav]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Acs@12345]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[AC002]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printTestData -->
+        <test-method status="PASS" signature="printTestData(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.mercuryTravel.utils.TestDataProvider@3e6fa38a]" name="printTestData" duration-ms="3" started-at="2018-12-30T16:50:33Z" data-provider="getData" finished-at="2018-12-30T16:50:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sreeni]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[xyz@1234]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[AC003]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printTestData -->
+      </class> <!-- com.mercuryTravel.utils.TestDataProvider -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
