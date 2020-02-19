@@ -1,0 +1,82 @@
+package triluron;
+
+import java.util.List;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.Keys;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.Select;
+
+public class SeleniumFunctionsSampleScript {
+
+	public static void main(String[] args) throws InterruptedException {
+		System.setProperty("webdriver.chrome.driver",
+				"C://Users//Limon Hossain//eclipse-workspace//chromedriver_win32//chromedriver.exe");
+		WebDriver driver = new ChromeDriver();
+		driver.get("https://www.apple.com/");
+		driver.manage().window().maximize();
+		
+		//
+		
+		
+
+		// Dropdown Menus - 1) Selecting using selectByVisibleText
+		// Select testingDropdown = new
+		// Select(driver.findElement(By.id("testingDropdown")));
+		// testingDropdow.selectByVisibleText("Database Testing");
+
+		// Dropdown Menus - 1) Selecting using selectByValue()
+		// Select testingDropdow = new Select(driver.findElement(By.id("testingDropdown")));
+		// testingDropdow.selectByValue("Manual");
+
+		// Dropdown Menus - 1) Selecting using selectByIndex() ---Take a note that the index value starts with “0”
+		// Select testingDropdow = new Select(driver.findElement(By.id("testingDropdown")));
+		// testingDropdow.selectByIndex(3);
+			
+		
+		// Dropdown Menus - 1) Selecting using getOptions() to total number of options in dropdown
+		//		 Select testingDropdow = new Select(driver.findElement(By.id("testingDropdown")));
+		//		 List <WebElement> elmentcount =  testingDropdow.getOptions();
+		//		 System.out.println(elmentcount.size());
+
+		
+		// Dropdown Menus - 1) Get all values from dropdown menu
+		//Select testingDropdow = new Select(driver.findElement(By.id("testingDropdown")));
+		//java.util.List<WebElement> options = testingDropdow.getOptions();
+		//for (WebElement item : options) {System.out.println(item.getText());
+		
+		///Get total count of all links
+		//List<WebElement> links = driver.findElements(By.tagName("a"));
+		//System.out.println(links.size());
+	
+		
+				
+		
+		Thread.sleep(5000);
+		driver.quit();
+
+		// Dropdown and Multiple Select Operations
+
+		// String text =
+		// driver.findElement(By.xpath("//*[@id=\"content\"]/div[1]/div/div/div/div[1]/p[1]/em/strong")).getText();
+		// System.out.println(text);
+
+		// Checks if checkbox is checked already, if not it will check the box
+		// WebElement checkboxprof = driver.findElement(By.id("profession-0"));
+		// if (!checkboxprof.isSelected())
+		// checkboxprof.click();
+
+		// getTitle and getCurrentURL
+		// String title = driver.getTitle();
+		// System.out.println("The title is " + title);
+
+		// String currentURL = driver.getCurrentUrl();
+		// System.out.println("The URL is " + currentURL);
+
+		Thread.sleep(10000);
+
+	}
+}
